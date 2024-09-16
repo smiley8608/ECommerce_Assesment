@@ -1,0 +1,41 @@
+.navbar-brand {
+    margin-left: 30px; 
+  }
+  
+  .navbar-collapse {
+    display: flex;
+    justify-content: flex-end; 
+  }
+  
+  .navbar-nav .nav-link {
+    color: #f8f9fa; 
+    margin-right: 15px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #adb5bd; 
+  }
+  
+  .navbar-nav .nav-dropdown .dropdown-menu {
+    background-color: #343a40; 
+  }
+  
+  .navbar-nav .nav-dropdown .dropdown-item {
+    color: #f8f9fa; 
+  }
+  
+  .navbar-nav .nav-dropdown .dropdown-item:hover {
+    background-color: #495057; 
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-nav {
+      text-align: center; 
+    }
+  
+    .navbar-nav .nav-link {
+      margin-right: 0; 
+      padding: 10px; 
+    }
+  }
+  

@@ -1,0 +1,15 @@
+
+.custom-checkbox .form-check-input:checked {
+    background-color: #007bff; 
+    border-color: #007bff; 
+  }
+  
+  .highlighted {
+    font-weight: bold;
+    color: #007bff; 
+  }
+  
+  .highlighted::before {
+    content: '💵 ';
+  }
+  

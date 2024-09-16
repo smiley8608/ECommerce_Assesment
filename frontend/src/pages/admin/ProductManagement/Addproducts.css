@@ -1,0 +1,29 @@
+.form-container {
+    background-color: #f8f9fa; 
+    border: 1px solid #ced4da; 
+    border-radius: 0.25rem; 
+    padding: 20px; 
+    margin-top: 20px; 
+}
+
+.form-container h1 {
+    margin-bottom: 20px; 
+}
+
+.form-group {
+    margin-bottom: 1rem; 
+}
+
+.form-control {
+    border: 1px solid #ced4da; 
+    border-radius: 0.25rem; 
+}
+
+.form-control:focus {
+    border-color: #80bdff; 
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25); 
+}
+
+.btn-primary {
+    margin-top: 10px; 
+}
